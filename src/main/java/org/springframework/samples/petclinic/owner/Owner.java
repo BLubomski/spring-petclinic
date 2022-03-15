@@ -47,7 +47,7 @@ import org.springframework.util.Assert;
 public class Owner extends Person {
 
 	public Owner() {
-		createdAt = new Exception().getStackTrace();
+		//createdAt = new Exception().getStackTrace();
 	}
 
 	private transient final StackTraceElement[] createdAt;
