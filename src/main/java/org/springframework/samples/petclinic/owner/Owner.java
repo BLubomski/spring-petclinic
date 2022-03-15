@@ -50,7 +50,7 @@ public class Owner extends Person {
 		//createdAt = new Exception().getStackTrace();
 	}
 
-	private transient final StackTraceElement[] createdAt;
+	//private transient final StackTraceElement[] createdAt;
 
 	@Column(name = "address")
 	@NotEmpty
